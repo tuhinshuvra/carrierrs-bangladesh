@@ -3,7 +3,7 @@ import React from 'react';
 const JobSearch = () => {
     return (
         <div className=' my-24  '>
-            <h2 className=' text-2xl font-bold my-8 capitalize'>Lets Find Your Job</h2>
+            <h2 className=' text-2xl font-bold my-8 capitalize'>LETS FIND YOUR JOB</h2>
             <div className="flex justify-between mx-auto">
                 <input type="text" placeholder="Keyword" className="input input-bordered w-full max-w-xs" />
                 <input type="text" placeholder="Organization Type" className="input input-bordered w-full max-w-xs" />

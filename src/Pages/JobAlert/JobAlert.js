@@ -4,7 +4,7 @@ const JobAlert = () => {
     return (
         <div>
             <h2 className=' text-2xl font-bold my-8 capitalize'>GET RELEVANT JOB ALERT</h2>
-            <div className="hero  bg-base-200 mb-40 ">
+            <div className="hero  bg-base-200 ">
                 <div className="hero-content flex-col  lg:flex-row-reverse">
 
                     <div className="card flex-shrink-0 columns-6 lg:w-1/2 max-w-sm shadow-2xl bg-base-100">

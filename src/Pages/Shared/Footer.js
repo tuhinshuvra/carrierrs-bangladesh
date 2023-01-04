@@ -30,9 +30,7 @@ const Footer = () => {
                     <Link className="link link-hover">Cookie policy</Link>
                 </div>
             </footer>
-            <div>
-                <p>Copyright © 2023 - All right reserved by Carriers Bangladesh</p>
-            </div>
+            <p>Copyright © 2023 - All right reserved by Carriers Bangladesh</p>
         </div>
     );
 };
