@@ -3,7 +3,27 @@ import React from 'react';
 const JobAlert = () => {
     return (
         <div>
-            <h2>This is Job alert section</h2>
+            <h2 className=' text-2xl font-bold my-8 capitalize'>GET RELEVANT JOB ALERT</h2>
+            <div className="hero  bg-base-200">
+                <div className="hero-content flex-col lg:flex-row-reverse">
+
+                    <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                        <div className="card-body">
+                            <div className="form-control">
+                                <input type="text" placeholder="Email" className="input input-bordered" />
+                            </div>
+
+                            <div className="form-control mt-6">
+                                <button className="btn btn-primary">JOB ALERT</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="text-center lg:text-left">
+                        <p className="py-6 text-3xl font-bold">Get your job alert and always be one step ahed from others</p>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
