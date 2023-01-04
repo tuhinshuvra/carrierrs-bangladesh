@@ -3,18 +3,18 @@ import { Link } from 'react-router-dom';
 
 const AnimatedBanner = () => {
     return (
-        <div>
-            <div className="carousel w-full">
-                <div id="item1" className="carousel-item w-full">
+        <div className='mb-40'>
+            <div className="carousel w-full  ">
+                <div id="item1" className="carousel-item h-24 w-full">
                     <img src="https://placeimg.com/800/200/arch" className="w-full" />
                 </div>
-                <div id="item2" className="carousel-item w-full">
+                <div id="item2" className="carousel-item h-24 w-full">
                     <img src="https://placeimg.com/800/200/arch" className="w-full" />
                 </div>
-                <div id="item3" className="carousel-item w-full">
+                <div id="item3" className="carousel-item h-24 w-full">
                     <img src="https://placeimg.com/800/200/arch" className="w-full" />
                 </div>
-                <div id="item4" className="carousel-item w-full">
+                <div id="item4" className="carousel-item h-24 w-full">
                     <img src="https://placeimg.com/800/200/arch" className="w-full" />
                 </div>
             </div>
