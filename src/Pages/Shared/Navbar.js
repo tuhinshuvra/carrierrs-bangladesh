@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
 
     const menuItems = <React.Fragment>
-        <li><Link>Home</Link></li>
-        <li><Link>About</Link></li>
-        <li><Link>Contact Us</Link></li>
-        <li><Link>Signin</Link></li>
+        <li className=''><Link to="/">Home</Link></li>
+        <li className=' mx-2'><Link to="/about">About</Link></li>
+        <li><Link to="/contact">Contact Us</Link></li>
+        <li className=' mx-2'><Link to="/signin">Signin</Link></li>
     </React.Fragment>
 
     return (
