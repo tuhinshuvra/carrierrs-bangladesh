@@ -24,7 +24,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <Link to="/" className="btn btn-ghost normal-case text-3xl font-bold ">
-                        <img className=' w-20' src={Logo} alt="" />
+                        <img className=' w-20 class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 ...' src={Logo} alt="" />
                         Carriers Bangladesh
                     </Link>
                 </div>
