@@ -4,6 +4,7 @@ import JobSearch from '../JobSearch/JobSearch';
 import JobCategory from '../JobCategory/JobCategory';
 import HotJobs from '../HotJobs/HotJobs';
 import JobAlert from '../JobAlert/JobAlert';
+import ELearning from '../ELearning/ELearning';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <JobCategory></JobCategory>
             <HotJobs></HotJobs>
             <JobAlert></JobAlert>
+            <ELearning></ELearning>
         </div>
     );
 };

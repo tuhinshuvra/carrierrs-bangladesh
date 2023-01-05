@@ -81,29 +81,8 @@ const JobCategory = () => {
                 </div>
 
 
-
-
-
                 {/* <Link className="tab text-black hover:text-blue-700">Accounting/Finance</Link>
                 <Link className="tab text-black hover:text-blue-700">IT & Telecommunication</Link>
-                <Link className="tab text-black hover:text-blue-700">Accounting/Finance</Link>
-                <Link className="tab text-black hover:text-blue-700">Accounting/Finance</Link>
-                <Link className="tab text-black hover:text-blue-700">Accounting/Finance</Link>
-                <Link className="tab text-black hover:text-blue-700">Accounting/Finance</Link>
-                <Link className="tab text-black hover:text-blue-700">Accounting/Finance</Link>
-                <Link className="tab text-black hover:text-blue-700">Accounting/Finance</Link>
-                <Link className="tab text-black hover:text-blue-700">Accounting/Finance</Link>
-                <Link className="tab text-black hover:text-blue-700">Accounting/Finance</Link>
-                <Link className="tab text-black hover:text-blue-700">Accounting/Finance</Link>
-                <Link className="tab text-black hover:text-blue-700">Accounting/Finance</Link>
-                <Link className="tab text-black hover:text-blue-700">Engineer/Architects</Link>
-                <Link className="tab text-black hover:text-blue-700">Accounting/Finance</Link>
-                <Link className="tab text-black hover:text-blue-700">Accounting/Finance</Link>
-                <Link className="tab text-black hover:text-blue-700">Accounting/Finance</Link>
-                <Link className="tab text-black hover:text-blue-700">Accounting/Finance</Link>
-                <Link className="tab text-black hover:text-blue-700">Accounting/Finance</Link>
-                <Link className="tab text-black hover:text-blue-700">Accounting/Finance</Link>
-                <Link className="tab text-black hover:text-blue-700">Accounting/Finance</Link>
                 <Link className="tab text-black hover:text-blue-700">Accounting/Finance</Link> */}
             </div>
         </div>

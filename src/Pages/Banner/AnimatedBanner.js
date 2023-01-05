@@ -6,16 +6,16 @@ const AnimatedBanner = () => {
         <div className=' h-24'>
             <div className="carousel w-full ">
                 <div id="item1" className="carousel-item h-24 w-full">
-                    <img src="https://placeimg.com/800/200/arch" className="w-full" />
+                    <img src="https://placeimg.com/800/200/arch" className="w-full" alt='' />
                 </div>
                 <div id="item2" className="carousel-item w-full h-24">
-                    <img src="https://placeimg.com/800/200/arch" className="w-full" />
+                    <img src="https://placeimg.com/800/200/arch" className="w-full" alt='' />
                 </div>
                 <div id="item3" className="carousel-item w-full h-24">
-                    <img src="https://placeimg.com/800/200/arch" className="w-full" />
+                    <img src="https://placeimg.com/800/200/arch" className="w-full" alt='' />
                 </div>
                 <div id="item4" className="carousel-item w-full h-24">
-                    <img src="https://placeimg.com/800/200/arch" className="w-full" />
+                    <img src="https://placeimg.com/800/200/arch" className="w-full" alt='' />
                 </div>
             </div>
             <div className="flex justify-center w-full py-2 gap-2">
