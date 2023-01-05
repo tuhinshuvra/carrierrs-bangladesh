@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Logo from '../../assets/logo/carriers-bangladesh-logo.png';
 
 const Navbar = () => {
 
@@ -22,7 +23,10 @@ const Navbar = () => {
                             {menuItems}
                         </ul>
                     </div>
-                    <Link className="btn btn-ghost normal-case text-3xl font-bold ">Carriers Bangladesh</Link>
+                    <Link to="/" className="btn btn-ghost normal-case text-3xl font-bold ">
+                        <img className=' w-20' src={Logo} alt="" />
+                        Carriers Bangladesh
+                    </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
