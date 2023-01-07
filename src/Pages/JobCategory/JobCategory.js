@@ -18,7 +18,7 @@ const JobCategory = () => {
     return (
         <div>
             <h2 className=' text-2xl font-bold my-8 capitalize'>JOB CATEGORIES</h2>
-            <div className=' grid lg: grid-cols-4 gap-2 '>
+            <div className=' grid lg: grid-cols-4 gap-2 mb-40'>
                 {newCategories.map(cat => <JobCategoryDisplay
                     key={categories.id}
                     categories={categories}

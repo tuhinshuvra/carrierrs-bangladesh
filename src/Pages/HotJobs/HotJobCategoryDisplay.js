@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const JobCategoryDisplay = ({ categories }) => {
+const HotJobCategoryDisplay = ({ categories }) => {
     return (
         <div>
             <Link to='/'>
@@ -16,4 +16,4 @@ const JobCategoryDisplay = ({ categories }) => {
     );
 };
 
-export default JobCategoryDisplay;
+export default HotJobCategoryDisplay;
