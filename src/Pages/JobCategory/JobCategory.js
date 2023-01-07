@@ -1,89 +1,28 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import JobCategoryDisplay from './JobCategoryDisplay';
 
 const JobCategory = () => {
+    const [categories, setCategory] = useState([]);
+    let newCategories = categories.slice(0, 16)
+
+    useEffect(() => {
+        fetch('https://jsonplaceholder.typicode.com/albums')
+            .then((response) => response.json())
+            .then((data) => {
+                console.log("Data : ", data)
+                setCategory(data)
+            })
+    }, []);
+
+
     return (
         <div>
-            <h2 className=' text-2xl font-bold my-8 capitalize'>JOB CATEGORY</h2>
-            <div className=" font-bold grid lg:grid-cols-3 mb-40  sm:mx-6  gap-4">
-
-                <div className="card card-side bg-base-100 shadow-2xl hover:bg-gray-300 hover:rotate-1">
-                    {/* <figure><img src="https://placeimg.com/200/280/arch" alt="Movie" /></figure> */}
-                    <p>SVG ICON</p>
-                    <div className="card-body">
-                        <h2 className="card-title">IT & Tele Communication</h2>
-                        <p>123 Jobs Available</p>
-                    </div>
-                </div>
-                <div className="card card-side bg-base-100 shadow-2xl hover:bg-gray-300  hover:rotate-1">
-                    {/* <figure><img src="https://placeimg.com/200/280/arch" alt="Movie" /></figure> */}
-                    <p>SVG ICON</p>
-                    <div className="card-body">
-                        <h2 className="card-title">IT & Tele Communication</h2>
-                        <p>123 Jobs Available</p>
-                    </div>
-                </div>
-                <div className="card card-side bg-base-100 shadow-2xl hover:bg-gray-300  hover:rotate-1">
-                    {/* <figure><img src="https://placeimg.com/200/280/arch" alt="Movie" /></figure> */}
-                    <p>SVG ICON</p>
-                    <div className="card-body">
-                        <h2 className="card-title">IT & Tele Communication</h2>
-                        <p>123 Jobs Available</p>
-                    </div>
-                </div>
-                <div className="card card-side bg-base-100 shadow-2xl hover:bg-gray-300  hover:rotate-1">
-                    {/* <figure><img src="https://placeimg.com/200/280/arch" alt="Movie" /></figure> */}
-                    <p>SVG ICON</p>
-                    <div className="card-body">
-                        <h2 className="card-title">IT & Tele Communication</h2>
-                        <p>123 Jobs Available</p>
-                    </div>
-                </div>
-                <div className="card card-side bg-base-100 shadow-2xl hover:bg-gray-300  hover:rotate-1">
-                    {/* <figure><img src="https://placeimg.com/200/280/arch" alt="Movie" /></figure> */}
-                    <p>SVG ICON</p>
-                    <div className="card-body">
-                        <h2 className="card-title">IT & Tele Communication</h2>
-                        <p>123 Jobs Available</p>
-                    </div>
-                </div>
-                <div className="card card-side bg-base-100 shadow-2xl hover:bg-gray-300  hover:rotate-1">
-                    {/* <figure><img src="https://placeimg.com/200/280/arch" alt="Movie" /></figure> */}
-                    <p>SVG ICON</p>
-                    <div className="card-body">
-                        <h2 className="card-title">IT & Tele Communication</h2>
-                        <p>123 Jobs Available</p>
-                    </div>
-                </div>
-                <div className="card card-side bg-base-100 shadow-2xl hover:bg-gray-300  hover:rotate-1">
-                    {/* <figure><img src="https://placeimg.com/200/280/arch" alt="Movie" /></figure> */}
-                    <p>SVG ICON</p>
-                    <div className="card-body">
-                        <h2 className="card-title">IT & Tele Communication</h2>
-                        <p>123 Jobs Available</p>
-                    </div>
-                </div>
-                <div className="card card-side bg-base-100 shadow-2xl hover:bg-gray-300  hover:rotate-1">
-                    {/* <figure><img src="https://placeimg.com/200/280/arch" alt="Movie" /></figure> */}
-                    <p>SVG ICON</p>
-                    <div className="card-body">
-                        <h2 className="card-title">IT & Tele Communication</h2>
-                        <p>123 Jobs Available</p>
-                    </div>
-                </div>
-                <div className="card card-side bg-base-100 shadow-2xl hover:bg-gray-300  hover:rotate-1">
-                    {/* <figure><img src="https://placeimg.com/200/280/arch" alt="Movie" /></figure> */}
-                    <p>SVG ICON</p>
-                    <div className="card-body">
-                        <h2 className="card-title">IT & Tele Communication</h2>
-                        <p>123 Jobs Available</p>
-                    </div>
-                </div>
-
-
-                {/* <Link className="tab text-black hover:text-blue-700">Accounting/Finance</Link>
-                <Link className="tab text-black hover:text-blue-700">IT & Telecommunication</Link>
-                <Link className="tab text-black hover:text-blue-700">Accounting/Finance</Link> */}
+            <h2 className=' text-2xl font-bold my-8 capitalize'>JOB CATEGORIES</h2>
+            <div className=' grid lg: grid-cols-4 gap-2 '>
+                {newCategories.map(cat => <JobCategoryDisplay
+                    key={categories.id}
+                    categories={categories}
+                ></JobCategoryDisplay>)}
             </div>
         </div>
     );
