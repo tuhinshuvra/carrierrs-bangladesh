@@ -1,15 +1,31 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const JobSearch = () => {
     return (
         <div className=' my-24  '>
             <h2 className=' text-2xl font-bold my-8 capitalize'>LETS FIND YOUR JOB</h2>
-            <div className="flex justify-between mx-auto">
-                <input type="text" placeholder="Keyword" className="input input-bordered w-full max-w-xs" />
-                <input type="text" placeholder="Organization Type" className="input input-bordered w-full max-w-xs" />
-                <input type="text" placeholder="Location" className="input input-bordered w-full max-w-xs" />
-                <button className='btn btn-primary'>Search</button>
+            {/* <div className=" grid lg:grid-cols-4 lg:gap-10 md:grid-cols-2 sm:grid-cols-1 mx-auto"> */}
+            <div className=" mx-auto">
+                <input type="text" placeholder="Keyword" className="input input-bordered lg:w-1/6 sm:w-2/3 mx-2 " />
+                <input type="text" placeholder="Organization Type" className="input input-bordered lg:w-1/6 sm:w-2/3 mx-2 " />
+                <input type="text" placeholder="Location" className="input input-bordered lg:w-1/6 sm:w-2/3 mx-2 " />
+                <button className='btn btn-primary w-1/6 mx-2 '>Search</button>
             </div>
+
+            {/* <div class="form-control">
+                <label class="label">
+                    <span class="label-text">Username</span>
+                    <Link href="#" class="label-text-alt">
+                        Need help?
+                    </Link>
+                </label>
+                <input type="text" placeholder="username" class="input input-bordered" />
+                <label class="label">
+                    <a href="#" class="label-text-alt">Forgot username?</a>
+                    <a href="#" class="label-text-alt">Are you sure?</a>
+                </label>
+            </div> */}
 
             {/* <div className=" flex justify-evenly lg:w-3/4  mx-auto my-10 ">
                 <div className="flex flex-col text-center">

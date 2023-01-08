@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 
 const AnimatedBanner = () => {
     return (
-        <div className=' h-24'>
-            <div className="carousel w-full ">
+
+        <div className=' h-24 mt-20'>
+            <div className="carousel w-full  ">
                 <div id="item1" className="carousel-item h-24 w-full">
                     <img src="https://placeimg.com/800/200/arch" className="w-full" alt='' />
                 </div>
