@@ -6,7 +6,7 @@ import Signin from '../../Signin/Signin';
 import Register from '../../Register/Register';
 import About from '../../About/About';
 import Contact from '../../Contact/Contact';
-import Profile from '../../Profile/Profile';
+import Profile from '../../Profile/Profiles';
 
 const router = createBrowserRouter([
     {
