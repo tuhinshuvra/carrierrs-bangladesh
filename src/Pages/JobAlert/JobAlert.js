@@ -3,7 +3,7 @@ import React from 'react';
 const JobAlert = () => {
     return (
         <div>
-            <h2 className=' text-2xl font-bold my-8 capitalize'>GET RELEVANT JOB ALERT</h2>
+            <h2 className=' text-center text-2xl font-bold my-8 capitalize'>GET RELEVANT JOB ALERT</h2>
             <div className="hero  bg-base-200  mb-40">
                 <div className="hero-content flex-col  lg:flex-row-reverse">
 
