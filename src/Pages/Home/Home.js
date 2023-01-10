@@ -11,10 +11,10 @@ const Home = () => {
         <div>
             <AnimatedBanner></AnimatedBanner>
             <JobSearch></JobSearch>
-            {/* <JobCategory></JobCategory> */}
-            {/* <HotJobs></HotJobs> */}
-            {/* <JobAlert></JobAlert> */}
-            {/* <ELearning></ELearning> */}
+            <JobCategory></JobCategory>
+            <HotJobs></HotJobs>
+            <JobAlert></JobAlert>
+            <ELearning></ELearning>
         </div>
     );
 };

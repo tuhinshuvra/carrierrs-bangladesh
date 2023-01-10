@@ -3,65 +3,48 @@ import React from 'react';
 const CarrerAndApplication = () => {
     return (
         <div>
-            <div className=' mx-52  mt-10'>
+            <div className=' mx-52 '>
                 <h2 className="collapse-title text-xl font-medium">
                     Carrer and Application Information
                 </h2>
+                <label className="label">
+                    <span className="label-text text-md font-bold  ">Objective</span>
+                </label>
+                <textarea id='objective' className="textarea w-full input input-bordered"  ></textarea>
+
                 <div class="grid md:grid-cols-2 md:gap-6">
                     <div>
-                        <label className="label">
-                            <span className="label-text text-md font-bold ">Present Address</span>
-                        </label>
-                        <input type="radio" name="outside-bangladesh" className="radio radio-primary" /> <label htmlFor="">Outside Bangladesh</label>
+                        <label className="label"> <span className="label-text text-md font-bold ">Present Salary</span> </label>
+                        <input type="text" id='present-salary' placeholder="Type here" className="input input-bordered w-full max-w-xs" />
+                        <label className="label"> <span className="label-text-alt">TK/ Month</span> </label>
+                    </div>
+                    <div>
+                        <label className="label"> <span className="label-text text-md font-bold ">Expected Salary</span></label>
+                        <input type="text" id='expected-salary' placeholder="Type here" className="input input-bordered w-full max-w-xs" />
+                        <label className="label"> <span className="label-text-alt">TK/ Month</span> </label>
                     </div>
                 </div>
 
-                <div class="grid md:grid-cols-3 md:gap-6 mt-2">
-
+                <div class="grid md:grid-cols-2 md:gap-6">
                     <div>
+                        <label className="label"> <span className="label-text text-md font-bold ">Looking for (Job Level)</span> </label>
+                        <div className=' flex  '>
 
-                    </div>
-
-                </div>
-                <input className='input input-bordered w-full my-5 ' type="text" placeholder='Type your house no/road/village' />
-
-                <div class="grid md:grid-cols-2 md:gap-6 mt-4">
-                    <div>
-                        <label className="label">
-                            <span className="label-text text-md font-bold ">Permanent Address</span>
-                        </label>
-                        <input type="radio" name="inside-bangladesh" className="radio radio-primary" /> <label htmlFor="">Inside Bangladesh</label>
-                        <input type="radio" name="outside-bangladesh" className="radio radio-primary" /> <label htmlFor="">Outside Bangladesh</label>
-                    </div>
-                </div>
-
-                <div class="grid md:grid-cols-3 md:gap-6 mt-2">
-                    <div>
-                        <select className="select select-bordered w-60 ">
-                            <option disabled selected>Select District</option>
-                            <option value={0}>Male</option>
-                            <option value={1}>Female</option>
-                            <option value={2}>Others</option>
-                        </select>
+                            <div className=' flex items-center'>
+                                <label for="html">Entry Level</label><input className=' ml-1' type="radio" id="entry-level" name="entry-level" value="entry-level" />
+                            </div>
+                            <div className=' mx-5  flex items-center'>
+                                <label for="html">Mid Level</label><input className=' ml-1' type="radio" id="entry-level" name="entry-level" value="entry-level" />
+                            </div>
+                            <div className=' flex items-center'>
+                                <label for="html">Top Level</label><input className=' ml-1' type="radio" id="entry-level" name="entry-level" value="entry-level" />
+                            </div>
+                        </div>
                     </div>
                     <div>
-                        <select className="select select-bordered w-60 ">
-                            <option disabled selected>Select Thana</option>
-                            <option value={0}>Male</option>
-                            <option value={1}>Female</option>
-                            <option value={2}>Others</option>
-                        </select>
-                    </div>
-                    <div>
-                        <select className="select select-bordered w-60 ">
-                            <option disabled selected>Select P.O.</option>
-                            <option value={0}>Male</option>
-                            <option value={1}>Female</option>
-                            <option value={2}>Others</option>
-                        </select>
+                        <label className="label"> <span className="label-text text-md font-bold ">Available for (Job Nature)</span></label>
                     </div>
                 </div>
-                <input className='input input-bordered w-full my-5 ' type="text" placeholder='Type your house no/road/village' />
 
             </div>
         </div>
