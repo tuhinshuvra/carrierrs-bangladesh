@@ -3,8 +3,9 @@ import React from 'react';
 const PreferredAreas = () => {
     return (
         <div>
-            <div className=' mx-52 '>
-                <h2 className="collapse-title text-xl font-medium">Preferred Areas</h2>
+            <div className=' mx-52 my-10 '>
+                <h2 className=" text-center text-2xl font-medium">
+                    Preferred Areas</h2>
 
                 <label className="label"> <span className="label-text text-md font-bold">Preferred Job Categories</span> </label>
                 <p>Preferred job categories represents your desired sector(s) to work (at least 1 category any of section)</p>

@@ -4,7 +4,7 @@ const AddressDetails = () => {
     return (
         <div>
             <div className=' mx-52  mt-10'>
-                <h2 className="collapse-title text-xl font-medium">
+                <h2 className=" text-center text-2xl font-medium">
                     Address Details
                 </h2>
                 <div class="grid md:grid-cols-2 md:gap-6">

@@ -3,8 +3,9 @@ import React from 'react';
 const CarrerAndApplication = () => {
     return (
         <div>
-            <div className=' mx-52 '>
-                <h2 className="collapse-title text-xl font-medium">
+            <div className=' mx-52 my-10 '>
+                <h2 className=" text-center text-2xl font-medium">
+
                     Carrer and Application Information
                 </h2>
                 <label className="label">
