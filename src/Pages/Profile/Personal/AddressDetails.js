@@ -3,7 +3,7 @@ import React from 'react';
 const AddressDetails = () => {
     return (
         <div>
-            <div className=' mx-52  mt-10'>
+            <div className=' mx-52  my-16'>
                 <h2 className=" text-center text-2xl font-medium">
                     Address Details
                 </h2>

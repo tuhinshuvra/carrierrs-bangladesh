@@ -3,7 +3,7 @@ import React from 'react';
 const OtherRelevantInformation = () => {
     return (
         <div>
-            <div className=' mx-52 my-10 '>
+            <div className=' mx-52 my-16 '>
                 <h2 className=" text-center text-2xl font-medium">
                     Other Relevant Information
                 </h2>
