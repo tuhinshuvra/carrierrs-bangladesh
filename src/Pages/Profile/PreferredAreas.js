@@ -4,64 +4,24 @@ const PreferredAreas = () => {
     return (
         <div>
             <div className=' mx-52 '>
-                <h2 className="collapse-title text-xl font-medium">
-                    Carrer and Application Information
-                </h2>
-                <label className="label">
-                    <span className="label-text text-md font-bold  ">Objective</span>
-                </label>
-                <textarea id='objective' className="textarea w-full input input-bordered"  ></textarea>
+                <h2 className="collapse-title text-xl font-medium">Preferred Areas</h2>
 
-                <div class="grid md:grid-cols-2 md:gap-6">
-                    <div>
-                        <label className="label"> <span className="label-text text-md font-bold ">Present Salary</span> </label>
-                        <input type="text" id='present-salary' placeholder="Type here" className="input input-bordered w-full max-w-xs" />
-                        <label className="label"> <span className="label-text-alt">TK/ Month</span> </label>
-                    </div>
-                    <div>
-                        <label className="label"> <span className="label-text text-md font-bold ">Expected Salary</span></label>
-                        <input type="text" id='expected-salary' placeholder="Type here" className="input input-bordered w-full max-w-xs" />
-                        <label className="label"> <span className="label-text-alt">TK/ Month</span> </label>
-                    </div>
-                </div>
+                <label className="label"> <span className="label-text text-md font-bold">Preferred Job Categories</span> </label>
+                <p>Preferred job categories represents your desired sector(s) to work (at least 1 category any of section)</p>
+                <textarea id='job-location' className="textarea w-full input input-bordered"  ></textarea>
 
-                <div class="grid md:grid-cols-2 md:gap-6">
-                    <div>
-                        <label className="label"> <span className="label-text text-md font-bold ">Looking for (Job Level)</span> </label>
-                        <div className=' grid grid-cols-3'>
-                            <div className=' flex items-center'>
-                                <label for="html">Entry Level</label><input className=' ml-1' type="radio" id="entry-level" name="entry-level" value="entry-level" />
-                            </div>
-                            <div className=' mx-5 flex items-center'>
-                                <label for="html">Mid Level</label><input className=' ml-1' type="radio" id="mid-level" name="mid-level" value="mid-level" />
-                            </div>
-                            <div className=' flex items-center'>
-                                <label for="html">Top Level</label><input className=' ml-1' type="radio" id="top-level" name="top-level" value="top-level" />
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <label className="label"> <span className="label-text text-md font-bold ">Available for (Job Nature)</span></label>
-                        <div className=' grid grid-cols-4 '>
-                            <div className=' flex items-center'>
-                                <label for="html">Full time</label><input className=' ml-1' type="radio" id="full-time" name="full-time" value="full-time" />
-                            </div>
-                            <div className='flex items-center'>
-                                <label for="html">Part time</label><input className=' ml-1' type="radio" id="part-time" name="part-time" value="part-time" />
-                            </div>
-                            <div className=' flex items-center'>
-                                <label for="html">Contract</label><input className=' ml-1' type="radio" id="contact" name="contact" value="contact" />
-                            </div>
-                            <div className=' flex items-center'>
-                                <label for="html">Internship</label><input className=' ml-1' type="radio" id="internship" name="internship" value="internship" />
-                            </div>
-                            <div className=' flex items-center'>
-                                <label for="html">Freelance</label><input className=' ml-1' type="radio" id="freelance" name="freelance" value="freelance" />
-                            </div>
-                        </div>
 
-                    </div>
-                </div>
+                <h3 className="label-text text-md font-bold">Preferred Job Location</h3>
+                <span>Preferred Job Location defines the geographical place where you prefer to work. Add your priority wise preferred job locations. i.e. 1st: Dhaka, 2nd: Sylhet, 3rd: Khulna.</span>
+
+                <label className="label"> <span className="label-text">Inside Bangladesh Add Districts (max 15)</span> </label>
+                <textarea id='inside-bangladesh' className="textarea w-full input input-bordered"  ></textarea>
+
+                <label className="label"> <span className="label-text">Outside Bangladesh Add Countries (max 10)</span> </label>
+                <textarea id='outside-bangladesh' className="textarea w-full input input-bordered"  ></textarea>
+
+                <label className="label"> <span className="label-text text-md font-bold">Add your preferred organization type (max 12)</span> </label>
+                <textarea id='organization-type' className="textarea w-full input input-bordered"  ></textarea>
 
             </div>
         </div>
