@@ -1,10 +1,12 @@
 import React from 'react';
 import Personal from './Personal/Personal';
+import EducationTraining from './Education-Training/EducationTraining';
 
 const Profile = () => {
     return (
         <div>
-            <Personal></Personal>
+            {/* <Personal></Personal> */}
+            <EducationTraining></EducationTraining>
         </div>
     );
 };
