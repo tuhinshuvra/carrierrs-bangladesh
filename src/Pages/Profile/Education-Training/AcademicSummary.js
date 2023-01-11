@@ -7,7 +7,7 @@ const AcademicSummary = () => {
 
                 {/* <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100  rounded-md "> */}
                 <h2 className=" text-center text-2xl font-medium mb-10">
-                    Academic Summary
+                    Academic
                 </h2>
 
                 {/* <div className="collapse-content"> */}
