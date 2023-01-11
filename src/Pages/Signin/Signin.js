@@ -21,9 +21,9 @@ const Signin = () => {
     }
 
     return (
-        <div className=' h-[500px] flex justify-center items-center'>
-            <div className=' '>
-                <h2 className=' text-3xl text-center'>Singin</h2>
+        <div className=' h-[500px] flex justify-center items-center my-16'>
+            <div className=' w-96 p-4 '>
+                <h2 className=' text-2xl font-bold  text-center'>Singin</h2>
                 <form onSubmit={handleSubmit(handleLogin)}>
                     <div> {loginError && <p className=' text-red-600'>{loginError}</p>}</div>
                     <label className="label"><span className="label-text font-bold">Email</span></label>
@@ -39,11 +39,13 @@ const Signin = () => {
 
                     <label className="label"><span className="label-text">Forget Password ? </span></label>
 
-                    <input className=' btn btn-sm  btn-primary my-3 float-right w-full' value='Login' type="submit" />
+                    <input className=' btn  btn-primary my-3 float-right w-full' value='Login' type="submit" />
                 </form>
                 <p>New to doctors portal<Link to='/register' className=' text-accent '> Create New Account</Link> </p>
                 <div className="divider">OR</div>
-                <input className='btn btn-sm btn-primary btn-outline my-3 float-right w-full' value='Continue with Google' type="submit" />
+                <input className='btn  btn-primary btn-outline my-3 float-right w-full' value='Continue with Google' type="submit" />
+                <p className=' text-center'> OR</p>
+                <input className='btn  btn-primary btn-outline my-3 float-right w-full' value='Continue with Facebook' type="submit" />
             </div>
         </div>
     );

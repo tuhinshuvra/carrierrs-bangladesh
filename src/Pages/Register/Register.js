@@ -15,9 +15,9 @@ const Register = () => {
 
 
     return (
-        <div className=' flex justify-center items-center '>
+        <div className=' flex justify-center items-center my-16 '>
             <div className=' w-96 p-4'>
-                <h2 className=' text-xl font-bold  text-center'>Register</h2>
+                <h2 className=' text-2xl font-bold  text-center'>Register</h2>
                 <form onSubmit={handleSubmit(submitHandler)}>
                     {signUpError && <p className=' text-red-600'>{signUpError}</p>}
                     <div className="form-control w-full">
