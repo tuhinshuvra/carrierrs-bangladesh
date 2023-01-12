@@ -20,9 +20,10 @@ const EmployersDashboard = () => {
                     <div className="drawer-side">
                         <label htmlFor="dashboard-drawer" className="drawer-overlay"></label>
                         <ul className="menu p-4 w-80 bg-base-100 text-base-content">
-                            <li><Link to='/dashboard/employers/jobpost'>JobPost</Link></li>
-                            <li className=' my-1'><Link to='/dashboard/employers/jobSummary'>JobSummary</Link></li>
-                            <li><Link to='/dashboard/employers/jobList'>PostedJobList</Link></li>
+                            <li><Link to='/dashboard/employers/registration'>Registration</Link></li>
+                            <li className=' my-1'><Link to='/dashboard/employers/jobpost'>JobPost</Link></li>
+                            <li><Link to='/dashboard/employers/jobSummary'>JobSummary</Link></li>
+                            <li className=' my-1'><Link to='/dashboard/employers/jobList'>PostedJobList</Link></li>
                         </ul>
 
                     </div>
