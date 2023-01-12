@@ -1,7 +1,7 @@
 import React from 'react';
 import Personal from './Personal/Personal';
 import EducationTraining from './Education-Training/EducationTraining';
-import DashboardLayout from '../../layout/DashboardLayout';
+import MyJobDashboard from '../../layout/MyJobDashboard';
 
 const Profile = () => {
     return (

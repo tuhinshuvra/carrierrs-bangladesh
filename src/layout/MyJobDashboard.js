@@ -3,7 +3,7 @@ import { Link, Outlet } from 'react-router-dom';
 import Footer from '../Pages/Shared/Footer';
 import Navbar from '../Pages/Shared/Navbar';
 
-const DashboardLayout = () => {
+const MyJobDashboard = () => {
     return (
 
         <div>
@@ -20,11 +20,11 @@ const DashboardLayout = () => {
                     <div className="drawer-side">
                         <label htmlFor="dashboard-drawer" className="drawer-overlay"></label>
                         <ul className="menu p-4 w-80 bg-base-100 text-base-content">
-                            <li><Link to='/dashboard/personal'>Personal</Link></li>
-                            <li className=' my-1'><Link to='/dashboard/education'>Education/Training</Link></li>
-                            <li><Link to='/dashboard/employment'>Employment</Link></li>
-                            <li className=' my-1'><Link to='/dashboard/other-information'>Other Information</Link></li>
-                            <li><Link to='/dashboard/photograph'>Photograph</Link></li>
+                            <li><Link to='/dashboard/myjobs/personal'>Personal</Link></li>
+                            <li className=' my-1'><Link to='/dashboard/myjobs/education'>Education/Training</Link></li>
+                            <li><Link to='/dashboard/myjobs/employment'>Employment</Link></li>
+                            <li className=' my-1'><Link to='/dashboard/myjobs/other-information'>Other Information</Link></li>
+                            <li><Link to='/dashboard/myjobs/photograph'>Photograph</Link></li>
                         </ul>
 
                     </div>
@@ -73,4 +73,4 @@ const DashboardLayout = () => {
     );
 };
 
-export default DashboardLayout;
+export default MyJobDashboard;

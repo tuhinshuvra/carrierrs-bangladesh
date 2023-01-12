@@ -12,7 +12,11 @@ import Employment from '../../Profile/Employment/Employment';
 import OtherRelevantInformation from '../../Profile/Personal/OtherRelevantInformation';
 import Photograph from '../../Profile/Photograph/Photograph';
 import MainLayout from '../../../layout/MainLayout';
-import DashboardLayout from '../../../layout/DashboardLayout';
+import MyJobDashboard from '../../../layout/MyJobDashboard';
+import JobPost from '../../JobPost/JobPost';
+import JobSummary from '../../JobPost/JobSummary';
+import PostedJobList from '../../JobPost/PostedJobList';
+import EmployersDashboard from '../../../layout/EmployersDashboard';
 
 const router = createBrowserRouter([
     {
@@ -46,30 +50,49 @@ const router = createBrowserRouter([
         ]
     },
     {
-        path: '/dashboard',
-        element: <DashboardLayout></DashboardLayout>,
+        path: '/dashboard/myjobs/',
+        element: <MyJobDashboard></MyJobDashboard>,
         children: [
             {
-                path: '/dashboard/personal',
+                path: '/dashboard/myjobs/personal',
                 element: <Personal></Personal>
             },
             {
-                path: '/dashboard/education',
+                path: '/dashboard/myjobs/education',
                 element: <EducationTraining></EducationTraining>
             },
             {
-                path: '/dashboard/employment',
+                path: '/dashboard/myjobs/employment',
                 element: <Employment></Employment>
             },
             {
-                path: '/dashboard/other-information',
+                path: '/dashboard/myjobs/other-information',
                 element: <OtherRelevantInformation></OtherRelevantInformation>
             },
             {
-                path: '/dashboard/photograph',
+                path: '/dashboard/myjobs/photograph',
                 element: <Photograph></Photograph>
             },
 
+        ]
+    },
+    {
+        path: '/dashboard/employers/',
+        element: <EmployersDashboard></EmployersDashboard>,
+        children: [
+            {
+                path: '/dashboard/employers/jobpost',
+                element: <JobPost></JobPost>
+            },
+
+            {
+                path: '/dashboard/employers/jobSummary',
+                element: <JobSummary></JobSummary>
+            },
+            {
+                path: '/dashboard/employers/jobList',
+                element: <PostedJobList></PostedJobList>
+            },
         ]
     }
 ])

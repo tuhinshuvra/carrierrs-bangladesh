@@ -1,6 +1,6 @@
 import React from 'react';
 
-const JobDetails = () => {
+const JobSummary = () => {
     return (
         <div>
             <h2>This is Job Details Section</h2>
@@ -8,4 +8,4 @@ const JobDetails = () => {
     );
 };
 
-export default JobDetails;
+export default JobSummary;
