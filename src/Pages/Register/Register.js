@@ -32,6 +32,17 @@ const Register = () => {
                     </div>
 
                     <div className="form-control w-full">
+                        <label className="label"><span className="label-text">User Type</span> </label>
+                        <select type="text"
+                            {...register("userType")}
+                            className="input input-bordered w-full">
+                            <option selected value="jobseeker">Job Seeker</option>
+                            <option value="employer">Employer</option>
+                        </select>
+                        {/* {errors.userType && <p className='text-red-500'>{errors.userType.message}</p>} */}
+                    </div>
+
+                    <div className="form-control w-full">
                         <label className="label"><span className="label-text">Email</span> </label>
                         <input type="email"
                             name='email'
