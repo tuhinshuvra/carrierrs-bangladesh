@@ -16,7 +16,7 @@ import JobPost from '../../Profile/Employers/JobPost';
 import JobSummary from '../../Profile/Employers/JobSummary';
 import PostedJobList from '../../Profile/Employers/PostedJobList';
 import EmployersDashboard from '../../../layout/EmployersDashboard';
-import RegistrationForm from '../../Profile/Employers/RegistrationForm';
+import EmployerDetails from '../../Profile/Employers/EmployerDetails';
 
 const router = createBrowserRouter([
     {
@@ -77,8 +77,8 @@ const router = createBrowserRouter([
         element: <EmployersDashboard></EmployersDashboard>,
         children: [
             {
-                path: '/dashboard/employers/registration',
-                element: <RegistrationForm></RegistrationForm>
+                path: '/dashboard/employers/employerDetails',
+                element: <EmployerDetails></EmployerDetails>
             },
             {
                 path: '/dashboard/employers/jobpost',
