@@ -3,7 +3,7 @@ import React from 'react';
 const OtherRelevantInformation = () => {
     return (
         <div>
-            <div className=' mx-52 my-16 '>
+            <form className=' mx-52 my-16 '>
                 <h2 className=" text-center text-2xl font-medium">
                     Other Relevant Information
                 </h2>
@@ -15,7 +15,12 @@ const OtherRelevantInformation = () => {
 
                 <label className="label"> <span className="label-text text-md font-bold">Keywords</span></label>
                 <textarea id='keywords' className="textarea w-full input input-bordered"  ></textarea>
-            </div>
+
+                <div className=' flex justify-between my-10 w-[92.5%]'>
+                    <button className="btn btn-warning">Cancel</button>
+                    <button type='submit' name='submit' className="btn btn-primary">Save</button>
+                </div>
+            </form>
         </div>
     );
 };
