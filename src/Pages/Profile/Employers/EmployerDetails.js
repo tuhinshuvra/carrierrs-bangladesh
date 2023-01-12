@@ -7,7 +7,7 @@ const EmployerDetails = () => {
 
                 {/* <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100  rounded-md "> */}
                 <h2 className=" text-center text-2xl font-medium my-10">
-                    Company Details Information
+                    Employer Details Information
                 </h2>
 
                 <form action="">
