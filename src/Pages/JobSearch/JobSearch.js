@@ -13,17 +13,17 @@ const JobSearch = () => {
                 <button className='btn btn-primary w-1/6 mx-2 '>Search</button>
             </div>
 
-            {/* <div class="form-control">
-                <label class="label">
-                    <span class="label-text">Username</span>
-                    <Link href="#" class="label-text-alt">
+            {/* <div className="form-control">
+                <label className="label">
+                    <span className="label-text">Username</span>
+                    <Link href="#" className="label-text-alt">
                         Need help?
                     </Link>
                 </label>
-                <input type="text" placeholder="username" class="input input-bordered" />
-                <label class="label">
-                    <a href="#" class="label-text-alt">Forgot username?</a>
-                    <a href="#" class="label-text-alt">Are you sure?</a>
+                <input type="text" placeholder="username" className="input input-bordered" />
+                <label className="label">
+                    <a href="#" className="label-text-alt">Forgot username?</a>
+                    <a href="#" className="label-text-alt">Are you sure?</a>
                 </label>
             </div> */}
 

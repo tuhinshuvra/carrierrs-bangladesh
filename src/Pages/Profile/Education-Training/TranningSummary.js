@@ -12,7 +12,7 @@ const TranningSummary = () => {
 
                 {/* <div className="collapse-content"> */}
                 {/* <p>tabIndex={0} attribute is necessary to make the div focusable</p> */}
-                <div class="grid md:grid-cols-2 md:gap-6">
+                <div className="grid md:grid-cols-2 md:gap-6">
                     {/* <div className="form-control w-full max-w-xs"> */}
                     <div>
                         <label className="label">
@@ -28,7 +28,7 @@ const TranningSummary = () => {
                     </div>
                 </div>
 
-                <div class="grid md:grid-cols-2 md:gap-6 mt-2">
+                <div className="grid md:grid-cols-2 md:gap-6 mt-2">
                     {/* <div className="form-control w-full max-w-xs"> */}
                     <div>
                         <label className="label">
@@ -133,7 +133,7 @@ const TranningSummary = () => {
                 </div>
 
 
-                <div class="grid md:grid-cols-2 md:gap-6 mt-2">
+                <div className="grid md:grid-cols-2 md:gap-6 mt-2">
                     {/* <div className="form-control w-full max-w-xs"> */}
                     <div>
                         <label className="label">

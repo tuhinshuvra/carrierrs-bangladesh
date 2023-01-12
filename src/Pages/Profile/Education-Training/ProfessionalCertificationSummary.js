@@ -12,7 +12,7 @@ const ProfessionalCertificationSummary = () => {
 
                 {/* <div className="collapse-content"> */}
                 {/* <p>tabIndex={0} attribute is necessary to make the div focusable</p> */}
-                <div class="grid md:grid-cols-2 md:gap-6">
+                <div className="grid md:grid-cols-2 md:gap-6">
                     {/* <div className="form-control w-full max-w-xs"> */}
                     <div>
                         <label className="label">
@@ -28,7 +28,7 @@ const ProfessionalCertificationSummary = () => {
                     </div>
                 </div>
 
-                <div class="grid md:grid-cols-2 md:gap-6 mt-2">
+                <div className="grid md:grid-cols-2 md:gap-6 mt-2">
                     {/* <div className="form-control w-full max-w-xs"> */}
                     <div>
                         <label className="label">
@@ -46,14 +46,8 @@ const ProfessionalCertificationSummary = () => {
                             <input type="date" id='duration' className="input input-bordered" />
                             <input type="date" id='duration' className="input input-bordered" />
                         </div>
-
                     </div>
-
                 </div>
-
-
-
-
                 <div className=' flex justify-between my-10 w-[92.5%]'>
                     <button className="btn btn-warning">Cancel</button>
                     <button type='submit' name='submit' className="btn btn-primary">Save</button>

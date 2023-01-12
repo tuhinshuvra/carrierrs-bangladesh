@@ -8,7 +8,7 @@ const Navbar = () => {
         <li className=''><Link to="/">Home</Link></li>
         <li className='lg:mx-2'><Link to="/about">About</Link></li>
         <li className='lg:mx-2'><Link to="/contact">Contact Us</Link></li>
-        <li className='lg:mx-2'><Link to="/profile">Profile</Link></li>
+        <li className='lg:mx-2'><Link to="/dashboard">Profile</Link></li>
         <li className='lg:mx-2'><Link to="/signin">Signin</Link></li>
     </React.Fragment>
 
@@ -25,7 +25,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <Link to="/" className="btn btn-ghost normal-case text-3xl font-bold ">
-                        <img className=' w-20 class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-150  duration-300 hover:rotate-180' src={Logo} alt="" />
+                        <img className=' w-20 className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-150  duration-300 hover:rotate-180' src={Logo} alt="" />
                         Carriers Bangladesh
                     </Link>
                 </div>

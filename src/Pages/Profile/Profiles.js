@@ -1,14 +1,14 @@
 import React from 'react';
 import Personal from './Personal/Personal';
 import EducationTraining from './Education-Training/EducationTraining';
-import ProfileDashboard from './ProfileDashboard';
+import DashboardLayout from '../../layout/DashboardLayout';
 
 const Profile = () => {
     return (
         <div>
-            <ProfileDashboard></ProfileDashboard>
+            {/* <DashboardLayout></DashboardLayout> */}
             {/* <Personal></Personal> */}
-            <EducationTraining></EducationTraining>
+            {/* <EducationTraining></EducationTraining> */}
         </div>
     );
 };

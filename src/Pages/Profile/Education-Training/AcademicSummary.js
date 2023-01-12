@@ -12,14 +12,15 @@ const AcademicSummary = () => {
 
                 {/* <div className="collapse-content"> */}
                 {/* <p>tabIndex={0} attribute is necessary to make the div focusable</p> */}
-                <div class="grid md:grid-cols-2 md:gap-6">
+                <div className="grid md:grid-cols-2 md:gap-6">
                     {/* <div className="form-control w-full max-w-xs"> */}
                     <div>
                         <label className="label">
                             <span className="label-text text-md font-bold ">Level of Education</span>
                         </label>
                         <select className="select select-bordered w-80 ">
-                            <option disabled selected>Select</option>
+                            {/* <option disabled selected>Select</option> */}
+                            <option value="DEFAULT" disabled>Select</option>
                             <option value={0}>Male</option>
                             <option value={1}>Female</option>
                             <option value={2}>Others</option>
@@ -30,7 +31,7 @@ const AcademicSummary = () => {
                             <span className="label-text text-md font-bold ">Exam/Degree Title</span>
                         </label>
                         <select className="select select-bordered w-80 ">
-                            <option disabled selected>Select</option>
+                            <option value="DEFAULT" disabled>Select</option>
                             <option value={0}>Male</option>
                             <option value={1}>Female</option>
                             <option value={2}>Others</option>
@@ -38,7 +39,7 @@ const AcademicSummary = () => {
                     </div>
                 </div>
 
-                <div class="grid md:grid-cols-2 md:gap-6 mt-2">
+                <div className="grid md:grid-cols-2 md:gap-6 mt-2">
                     {/* <div className="form-control w-full max-w-xs"> */}
                     <div>
                         <label className="label">
@@ -51,7 +52,7 @@ const AcademicSummary = () => {
                             <span className="label-text text-md font-bold ">Board</span>
                         </label>
                         <select className="select select-bordered w-80 ">
-                            <option disabled selected>Select</option>
+                            <option value="DEFAULT" disabled>Select</option>
                             <option value={0}>Male</option>
                             <option value={1}>Female</option>
                             <option value={2}>Others</option>
@@ -75,14 +76,14 @@ const AcademicSummary = () => {
                 </div>
 
 
-                <div class="grid md:grid-cols-2 md:gap-6">
+                <div className="grid md:grid-cols-2 md:gap-6">
                     {/* <div className="form-control w-full max-w-xs"> */}
                     <div>
                         <label className="label">
                             <span className="label-text text-md font-bold ">Result</span>
                         </label>
                         <select className="select select-bordered w-80 ">
-                            <option disabled selected>Select</option>
+                            <option value="DEFAULT" disabled>Select</option>
                             <option value={0}>Male</option>
                             <option value={1}>Female</option>
                             <option value={2}>Others</option>
@@ -181,7 +182,7 @@ const AcademicSummary = () => {
                         </select>
                     </div>
                 </div>
-                <div class="grid md:grid-cols-2 md:gap-6 mt-2">
+                <div className="grid md:grid-cols-2 md:gap-6 mt-2">
                     {/* <div className="form-control w-full max-w-xs"> */}
                     <div>
                         <label className="label">

@@ -1,6 +1,5 @@
 import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
-import Main from '../../../layout/Main';
 import Home from '../../Home/Home';
 import Signin from '../../Signin/Signin';
 import Register from '../../Register/Register';
@@ -12,11 +11,13 @@ import EducationTraining from '../../Profile/Education-Training/EducationTrainin
 import Employment from '../../Profile/Employment/Employment';
 import OtherRelevantInformation from '../../Profile/Personal/OtherRelevantInformation';
 import Photograph from '../../Profile/Photograph/Photograph';
+import MainLayout from '../../../layout/MainLayout';
+import DashboardLayout from '../../../layout/DashboardLayout';
 
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <Main></Main>,
+        element: <MainLayout></MainLayout>,
         children: [
             {
                 path: '/',
@@ -45,26 +46,27 @@ const router = createBrowserRouter([
         ]
     },
     {
-        path: '/dashborard',
-        element: <Profile></Profile>, children: [
+        path: '/dashboard',
+        element: <DashboardLayout></DashboardLayout>,
+        children: [
             {
-                path: '/dashborard/personal',
+                path: '/dashboard/personal',
                 element: <Personal></Personal>
             },
             {
-                path: '/dashborard/education',
+                path: '/dashboard/education',
                 element: <EducationTraining></EducationTraining>
             },
             {
-                path: '/dashborard/employment',
+                path: '/dashboard/employment',
                 element: <Employment></Employment>
             },
             {
-                path: '/dashborard/other-information',
+                path: '/dashboard/other-information',
                 element: <OtherRelevantInformation></OtherRelevantInformation>
             },
             {
-                path: '/dashborard/photograph',
+                path: '/dashboard/photograph',
                 element: <Photograph></Photograph>
             },
 
