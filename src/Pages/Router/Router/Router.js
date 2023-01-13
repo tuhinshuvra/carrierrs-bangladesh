@@ -12,12 +12,12 @@ import OtherRelevantInformation from '../../Profile/MyJobs/Personal/OtherRelevan
 import Photograph from '../../Profile/MyJobs/Photograph/Photograph';
 import MainLayout from '../../../layout/MainLayout';
 import MyJobDashboard from '../../../layout/MyJobDashboard';
-import JobPost from '../../Profile/Employers/JobPost';
-import JobSummary from '../../Profile/Employers/JobSummary';
 import PostedJobList from '../../Profile/Employers/PostedJobList';
 import EmployersDashboard from '../../../layout/EmployersDashboard';
 import EmployerDetails from '../../Profile/Employers/EmployerDetails';
 import AppliedJobList from '../../Profile/MyJobs/AppliedJobList/AppliedJobList';
+import JobPrimaryPost from '../../Profile/Employers/JobPrimaryPost';
+import JobDetailsPost from '../../Profile/Employers/JobDetailsPost';
 
 const router = createBrowserRouter([
     {
@@ -86,13 +86,12 @@ const router = createBrowserRouter([
                 element: <EmployerDetails></EmployerDetails>
             },
             {
-                path: '/dashboard/employers/jobpost',
-                element: <JobPost></JobPost>
+                path: '/dashboard/employers/jobprimarypost',
+                element: <JobPrimaryPost></JobPrimaryPost>
             },
-
             {
-                path: '/dashboard/employers/jobSummary',
-                element: <JobSummary></JobSummary>
+                path: '/dashboard/employers/jobdetailspost',
+                element: <JobDetailsPost></JobDetailsPost>
             },
             {
                 path: '/dashboard/employers/jobList',

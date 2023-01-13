@@ -1,6 +1,6 @@
 import React from 'react';
 
-const JobPost = () => {
+const JobPrimaryPost = () => {
     return (
         <div>
             <div className=' mx-52  my-16'>
@@ -88,4 +88,4 @@ const JobPost = () => {
     );
 };
 
-export default JobPost;
+export default JobPrimaryPost;
