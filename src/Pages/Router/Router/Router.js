@@ -18,6 +18,7 @@ import EmployerDetails from '../../Profile/Employers/EmployerDetails';
 import AppliedJobList from '../../Profile/MyJobs/AppliedJobList/AppliedJobList';
 import JobPrimaryPost from '../../Profile/Employers/JobPrimaryPost';
 import JobDetailsPost from '../../Profile/Employers/JobDetailsPost';
+import WrongRoute from '../../Shared/ErrorDisplay/WrongRoute';
 
 const router = createBrowserRouter([
     {
@@ -98,6 +99,9 @@ const router = createBrowserRouter([
                 element: <PostedJobList></PostedJobList>
             },
         ]
-    }
+    },
+    {
+        path: "*", element: <WrongRoute></WrongRoute>
+    },
 ])
 export default router;
