@@ -17,6 +17,7 @@ import JobSummary from '../../Profile/Employers/JobSummary';
 import PostedJobList from '../../Profile/Employers/PostedJobList';
 import EmployersDashboard from '../../../layout/EmployersDashboard';
 import EmployerDetails from '../../Profile/Employers/EmployerDetails';
+import AppliedJobList from '../../Profile/MyJobs/AppliedJobList/AppliedJobList';
 
 const router = createBrowserRouter([
     {
@@ -68,6 +69,10 @@ const router = createBrowserRouter([
             {
                 path: '/dashboard/myjobs/photograph',
                 element: <Photograph></Photograph>
+            },
+            {
+                path: '/dashboard/myjobs/applied',
+                element: <AppliedJobList></AppliedJobList>
             },
 
         ]

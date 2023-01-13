@@ -7,8 +7,7 @@ const EmployersDashboard = () => {
     return (
 
         <div>
-            {/* <div className=' flex '> */}
-            <div className=''>
+            <div className='w-[1350px] mx-auto'>
                 <Navbar></Navbar>
                 <div className="drawer drawer-mobile  columns-2 ">
                     <input id="dashboard-drawer" type="checkbox" className="drawer-toggle" />
@@ -19,11 +18,11 @@ const EmployersDashboard = () => {
 
                     <div className="drawer-side">
                         <label htmlFor="dashboard-drawer" className="drawer-overlay"></label>
-                        <ul className="menu p-4 w-80 bg-base-100 text-base-content">
-                            <li><Link to='/dashboard/employers/employerDetails'>EmployerDetails</Link></li>
-                            <li className=' my-1'><Link to='/dashboard/employers/jobpost'>JobPost</Link></li>
-                            <li><Link to='/dashboard/employers/jobSummary'>JobSummary</Link></li>
-                            <li className=' my-1'><Link to='/dashboard/employers/jobList'>PostedJobList</Link></li>
+                        <ul className="menu p-4 w-72 bg-base-100 text-base-content">
+                            <li><Link to='/dashboard/employers/employerDetails'>Employer Details</Link></li>
+                            <li className=' my-1'><Link to='/dashboard/employers/jobpost'>Job Post</Link></li>
+                            <li><Link to='/dashboard/employers/jobSummary'>Job Summary</Link></li>
+                            <li className=' my-1'><Link to='/dashboard/employers/jobList'>Posted Job List</Link></li>
                         </ul>
 
                     </div>

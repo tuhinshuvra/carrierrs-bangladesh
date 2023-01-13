@@ -41,7 +41,7 @@ const TranningSummary = () => {
                         <label className="label">
                             <span className="label-text text-md font-bold ">Training Year</span>
                         </label>
-                        <select id="year-of-passing" name="year-of-passing" className="select select-bordered w-80 ">
+                        <select id="year-of-passing" name="year-of-passing" className="select select-bordered w-[303px]">
                             <option>Year</option>
                             <option value="1940">1940</option>
                             <option value="1941">1941</option>

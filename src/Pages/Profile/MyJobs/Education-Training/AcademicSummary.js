@@ -19,7 +19,7 @@ const AcademicSummary = () => {
                             <label className="label">
                                 <span className="label-text text-md font-bold ">Level of Education</span>
                             </label>
-                            <select className="select select-bordered w-80 ">
+                            <select className="select select-bordered w-[303px]">
                                 {/* <option disabled selected>Select</option> */}
                                 <option value="DEFAULT" disabled>Select</option>
                                 <option value={0}>Male</option>
@@ -31,7 +31,7 @@ const AcademicSummary = () => {
                             <label className="label">
                                 <span className="label-text text-md font-bold ">Exam/Degree Title</span>
                             </label>
-                            <select className="select select-bordered w-80 ">
+                            <select className="select select-bordered w-[303px]">
                                 <option value="DEFAULT" disabled>Select</option>
                                 <option value={0}>Male</option>
                                 <option value={1}>Female</option>
@@ -52,7 +52,7 @@ const AcademicSummary = () => {
                             <label className="label">
                                 <span className="label-text text-md font-bold ">Board</span>
                             </label>
-                            <select className="select select-bordered w-80 ">
+                            <select className="select select-bordered w-[303px]">
                                 <option value="DEFAULT" disabled>Select</option>
                                 <option value={0}>Male</option>
                                 <option value={1}>Female</option>
@@ -83,7 +83,7 @@ const AcademicSummary = () => {
                             <label className="label">
                                 <span className="label-text text-md font-bold ">Result</span>
                             </label>
-                            <select className="select select-bordered w-80 ">
+                            <select className="select select-bordered w-[303px]">
                                 <option value="DEFAULT" disabled>Select</option>
                                 <option value={0}>Male</option>
                                 <option value={1}>Female</option>
@@ -94,7 +94,7 @@ const AcademicSummary = () => {
                             <label className="label">
                                 <span className="label-text text-md font-bold ">Year of Passing</span>
                             </label>
-                            <select id="year-of-passing" name="year-of-passing" className="select select-bordered w-80 ">
+                            <select id="year-of-passing" name="year-of-passing" className="select select-bordered w-[303px]">
                                 <option>Year</option>
                                 <option value="1940">1940</option>
                                 <option value="1941">1941</option>

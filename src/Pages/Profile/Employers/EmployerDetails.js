@@ -42,7 +42,7 @@ const EmployerDetails = () => {
                             <label className="label">
                                 <span className="label-text text-md font-bold ">Company Size</span>
                             </label>
-                            <select className="select select-bordered w-72 ">
+                            <select className="select select-bordered w-[303px] ">
                                 <option disabled selected>Select</option>
                                 <option value={0}>1-15 Employees</option>
                                 <option value={1}>16-50 Employees</option>
@@ -322,7 +322,7 @@ const EmployerDetails = () => {
                             <label className="label">
                                 <span className="label-text text-md font-bold ">District</span>
                             </label>
-                            <select className="select select-bordered w-72" name="district" id='district'>
+                            <select className="select select-bordered w-[303px]" name="district" id='district'>
                                 <option value="Bagerhat">Bagerhat</option>
                                 <option value="Bandarban">Bandarban</option>
                                 <option value="Barguna">Barguna</option>
@@ -393,7 +393,7 @@ const EmployerDetails = () => {
                             <label className="label">
                                 <span className="label-text text-md font-bold ">Thana</span>
                             </label>
-                            <select className="select select-bordered w-72" name="district" id='district'>
+                            <select className="select select-bordered w-[303px]" name="district" id='district'>
                                 <option value="Bagerhat">Bagerhat</option>
                                 <option value="Bandarban">Bandarban</option>
                                 <option value="Barguna">Barguna</option>

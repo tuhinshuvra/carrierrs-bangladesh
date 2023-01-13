@@ -42,7 +42,7 @@ const JobPost = () => {
                             <label className="label">
                                 <span className="label-text text-md font-bold ">Company Size</span>
                             </label>
-                            <select className="select select-bordered w-72 ">
+                            <select className="select select-bordered w-[303px]">
                                 <option disabled selected>Select</option>
                                 <option value={0}>1-15 Employees</option>
                                 <option value={1}>16-50 Employees</option>
