@@ -27,7 +27,7 @@ const PreferredAreas = () => {
                     <label className="label"> <span className="label-text text-md font-bold">Add your preferred organization type (max 12)</span> </label>
                     <textarea id='organization-type' className="textarea w-full input input-bordered"  ></textarea>
 
-                    <div className=' flex justify-between my-10 w-[92.5%]'>
+                    <div className=' flex justify-between my-10'>
                         <button className="btn btn-warning">Cancel</button>
                         <button type='submit' name='submit' className="btn btn-primary">Save</button>
                     </div>

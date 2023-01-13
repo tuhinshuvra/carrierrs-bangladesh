@@ -216,7 +216,7 @@ const PersonalDetails = () => {
                         <input type="text" id='weight' placeholder="Type here" className="input input-bordered w-full max-w-xs" />
                     </div>
                 </div>
-                <div className=' flex justify-between my-10 w-[92.5%]'>
+                <div className=' flex justify-between my-10'>
                     <button className="btn btn-warning">Cancel</button>
                     <button type='submit' name='submit' className="btn btn-primary">Save</button>
                 </div>

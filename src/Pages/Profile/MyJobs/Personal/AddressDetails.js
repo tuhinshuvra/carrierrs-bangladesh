@@ -85,7 +85,7 @@ const AddressDetails = () => {
                     </div>
                     <input className='input input-bordered w-full my-5 ' type="text" placeholder='Type your house no/road/village' />
 
-                    <div className=' flex justify-between my-10 w-[92.5%]'>
+                    <div className=' flex justify-between my-10'>
                         <button className="btn btn-warning">Cancel</button>
                         <button type='submit' name='submit' className="btn btn-primary">Save</button>
                     </div>

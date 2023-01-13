@@ -42,13 +42,13 @@ const ProfessionalCertificationSummary = () => {
                                 <span className="label-text text-md font-bold ">Duration</span>
                             </label>
 
-                            <div className=' flex gap-3 w-[85%]'>
+                            <div className=' flex gap-3'>
                                 <input type="date" id='duration' className="input input-bordered" />
                                 <input type="date" id='duration' className="input input-bordered" />
                             </div>
                         </div>
                     </div>
-                    <div className=' flex justify-between my-10 w-[92.5%]'>
+                    <div className=' flex justify-between my-10'>
                         <button className="btn btn-warning">Cancel</button>
                         <button type='submit' name='submit' className="btn btn-primary">Save</button>
                     </div>

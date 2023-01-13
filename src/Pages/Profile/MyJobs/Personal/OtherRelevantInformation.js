@@ -16,7 +16,7 @@ const OtherRelevantInformation = () => {
                 <label className="label"> <span className="label-text text-md font-bold">Keywords</span></label>
                 <textarea id='keywords' className="textarea w-full input input-bordered"  ></textarea>
 
-                <div className=' flex justify-between my-10 w-[92.5%]'>
+                <div className=' flex justify-between my-10'>
                     <button className="btn btn-warning">Cancel</button>
                     <button type='submit' name='submit' className="btn btn-primary">Save</button>
                 </div>

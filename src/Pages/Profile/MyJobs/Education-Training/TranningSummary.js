@@ -12,7 +12,7 @@ const TranningSummary = () => {
 
                 {/* <div className="collapse-content"> */}
                 {/* <p>tabIndex={0} attribute is necessary to make the div focusable</p> */}
-                <div className="grid md:grid-cols-2 md:gap-6">
+                <form className="grid md:grid-cols-2 md:gap-6">
                     {/* <div className="form-control w-full max-w-xs"> */}
                     <div>
                         <label className="label">
@@ -26,7 +26,7 @@ const TranningSummary = () => {
                         </label>
                         <input type="text" id='birth-dath' className="input input-bordered w-full max-w-xs" />
                     </div>
-                </div>
+                </form>
 
                 <div className="grid md:grid-cols-2 md:gap-6 mt-2">
                     {/* <div className="form-control w-full max-w-xs"> */}
@@ -148,15 +148,16 @@ const TranningSummary = () => {
                         </label>
                         <input type="text" id='duration-years' className="input input-bordered w-full max-w-xs" />
                     </div>
-                    <div>
-                        <label className="label">
-                            <span className="label-text text-md font-bold ">Location</span>
-                        </label>
-                        <input type="text" id='location' className="input input-bordered w-full max-w-xs" />
-                    </div>
                 </div>
 
-                <div className=' flex justify-between my-10 w-[92.5%]'>
+                <div>
+                    <label className="label">
+                        <span className="label-text text-md font-bold ">Location</span>
+                    </label>
+                    <input type="text" id='location' className="input input-bordered w-full" />
+                </div>
+
+                <div className=' flex justify-between my-10'>
                     <button className="btn btn-warning">Cancel</button>
                     <button type='submit' name='submit' className="btn btn-primary">Save</button>
                 </div>

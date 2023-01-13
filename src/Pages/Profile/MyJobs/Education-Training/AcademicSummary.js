@@ -65,7 +65,7 @@ const AcademicSummary = () => {
                         <label className="label">
                             <span className="label-text text-md font-bold ">Institute Name</span>
                         </label>
-                        <input type="text" id='institute-name' placeholder="Type here" className="input input-bordered w-[92.5%] " />
+                        <input type="text" id='institute-name' placeholder="Type here" className="input input-bordered w-full " />
                     </div>
 
                     <div className='my-2'>
@@ -73,7 +73,7 @@ const AcademicSummary = () => {
                         <label className="label">
                             <span className="label-text text-md font-bold ">Country of Foreign University</span>
                         </label>
-                        <input type="text" id='institute-name' placeholder="Type here" className="input input-bordered w-[92.5%] " />
+                        <input type="text" id='institute-name' placeholder="Type here" className="input input-bordered w-full" />
                     </div>
 
 
@@ -199,7 +199,7 @@ const AcademicSummary = () => {
                         </div>
                     </div>
 
-                    <div className=' flex justify-between my-10 w-[92.5%]'>
+                    <div className=' flex justify-between my-10'>
                         <button className="btn btn-warning">Cancel</button>
                         <button type='submit' name='submit' className="btn btn-primary">Save</button>
                     </div>
