@@ -6,11 +6,11 @@ const Navbar = () => {
 
     const menuItems = <React.Fragment>
         <li className=''><Link to="/">Home</Link></li>
-        <li className='lg:mx-2'><Link to="/about">About</Link></li>
-        <li className='lg:mx-2'><Link to="/contact">Contact Us</Link></li>
-        <li className='lg:mx-2'><Link to="/dashboard/employers">Employers</Link></li>
-        <li className='lg:mx-2'><Link to="/dashboard/myjobs">MyJobs</Link></li>
-        <li className='lg:mx-2'><Link to="/signin">Signin</Link></li>
+        <li className='lg:mx-2 font-bold'><Link to="/about">About</Link></li>
+        <li className='lg:mx-2 font-bold'><Link to="/contact">Contact Us</Link></li>
+        <li className='lg:mx-2 font-bold'><Link to="/dashboard/employers">Employers</Link></li>
+        <li className='lg:mx-2 font-bold'><Link to="/dashboard/myjobs">MyJobs</Link></li>
+        <li className='lg:mx-2 font-bold'><Link to="/signin">Signin</Link></li>
     </React.Fragment>
 
     return (

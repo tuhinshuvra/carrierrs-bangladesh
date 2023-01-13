@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const JobCategoryDisplay = ({ categories }) => {
+const JobCategoryDisplay = ({ category }) => {
+    const { id, name, seller, price, stock, ratings, ratingsCount, img, shipping, quantity } = category;
     return (
         <div>
             <Link to='/'>
-                <div className='text-xl card card-side bg-base-100 shadow-2xl hover:text-green-900  hover:-rotate-1'>
-                    <div className=' card-body '>
-                        <img className=' w-11' src={categories.thumbnailUrl} alt="" />
-                        <p className=''>{categories[0].title}</p>
+                <div className='text-md bg-base-100 font-bold shadow-2xl  hover:text-primary  hover:-rotate-1'>
+                    <div className=' bg-slate-300 rounded rounded-md'>
+                        <p className=' p-1'>&#10148; {name}</p>
                     </div>
                 </div>
             </Link>
