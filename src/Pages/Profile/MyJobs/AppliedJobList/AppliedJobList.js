@@ -12,7 +12,7 @@ const AppliedJobList = () => {
                             <th>SL</th>
                             <th>Position</th>
                             <th>Organizaiton</th>
-                            <th>Date</th>
+                            <th>Applied Date</th>
                             <th>Action</th>
                         </tr>
                     </thead>
