@@ -27,7 +27,7 @@ const Signin = () => {
                 <form onSubmit={handleSubmit(handleLogin)}>
                     <div className=' flex   mt-8 mb-4 justify-center gap-2'>
                         <button className='btn btn-primary'>Employers</button>
-                        <button className='btn btn-primary'>JobSeeker</button>
+                        <button className='btn btn-secondary'>Job Seeker</button>
                     </div>
 
                     <div> {loginError && <p className=' text-red-600'>{loginError}</p>}</div>
