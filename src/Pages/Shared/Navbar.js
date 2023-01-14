@@ -8,8 +8,8 @@ const Navbar = () => {
         <li className='font-bold'><Link to="/">Home</Link></li>
         <li className='lg:mx-2 font-bold'><Link to="/about">About</Link></li>
         <li className='lg:mx-2 font-bold'><Link to="/contact">Contact Us</Link></li>
-        <li className='lg:mx-2 font-bold'><Link to="/dashboard/employers">Employers</Link></li>
-        <li className='lg:mx-2 font-bold'><Link to="/dashboard/myjobs">MyJobs</Link></li>
+        <li className='lg:mx-2 font-bold'><Link to="/dashboardEmployers">Employers</Link></li>
+        <li className='lg:mx-2 font-bold'><Link to="/dashboardMyJobs">MyJobs</Link></li>
         <li className='lg:mx-2 font-bold'><Link to="/signin">Signin</Link></li>
     </React.Fragment>
 

@@ -48,54 +48,62 @@ const router = createBrowserRouter([
         ]
     },
     {
-        path: '/dashboard/myjobs/',
+        path: '/dashboardMyJobs',
         element: <MyJobDashboard></MyJobDashboard>,
         children: [
             {
-                path: '/dashboard/myjobs/personal',
+                path: '/dashboardMyJobs',
                 element: <Personal></Personal>
             },
             {
-                path: '/dashboard/myjobs/education',
+                path: '/dashboardMyJobs/personal',
+                element: <Personal></Personal>
+            },
+            {
+                path: '/dashboardMyJobs/education',
                 element: <EducationTraining></EducationTraining>
             },
             {
-                path: '/dashboard/myjobs/employment',
+                path: '/dashboardMyJobs/employment',
                 element: <Employment></Employment>
             },
             {
-                path: '/dashboard/myjobs/other-information',
+                path: '/dashboardMyJobs/other-information',
                 element: <OtherRelevantInformation></OtherRelevantInformation>
             },
             {
-                path: '/dashboard/myjobs/photograph',
+                path: '/dashboardMyJobs/photograph',
                 element: <Photograph></Photograph>
             },
             {
-                path: '/dashboard/myjobs/applied',
+                path: '/dashboardMyJobs/applied',
                 element: <AppliedJobList></AppliedJobList>
             },
 
         ]
     },
     {
-        path: '/dashboard/employers/',
+        path: '/dashboardEmployers',
         element: <EmployersDashboard></EmployersDashboard>,
         children: [
             {
-                path: '/dashboard/employers/employerDetails',
+                path: '/dashboardEmployers',
                 element: <EmployerDetails></EmployerDetails>
             },
             {
-                path: '/dashboard/employers/jobprimarypost',
+                path: '/dashboardEmployers/employerDetails',
+                element: <EmployerDetails></EmployerDetails>
+            },
+            {
+                path: '/dashboardEmployers/jobprimarypost',
                 element: <JobPrimaryPost></JobPrimaryPost>
             },
             {
-                path: '/dashboard/employers/jobdetailspost',
+                path: '/dashboardEmployers/jobdetailspost',
                 element: <JobDetailsPost></JobDetailsPost>
             },
             {
-                path: '/dashboard/employers/jobList',
+                path: '/dashboardEmployers/jobList',
                 element: <PostedJobList></PostedJobList>
             },
         ]

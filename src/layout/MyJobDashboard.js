@@ -18,12 +18,12 @@ const MyJobDashboard = () => {
                     <div className="drawer-side">
                         <label htmlFor="dashboard-drawer" className="drawer-overlay"></label>
                         <ul className="menu p-4 w-72 bg-base-100 text-base-content">
-                            <li><Link to='/dashboard/myjobs/personal'>Personal</Link></li>
-                            <li className=' my-1'><Link to='/dashboard/myjobs/education'>Education/Training</Link></li>
-                            <li><Link to='/dashboard/myjobs/employment'>Employment</Link></li>
-                            <li className=' my-1'><Link to='/dashboard/myjobs/other-information'>Other Information</Link></li>
-                            <li><Link to='/dashboard/myjobs/photograph'>Photograph</Link></li>
-                            <li className=' my-1'><Link to='/dashboard/myjobs/applied'>Applied Job List</Link></li>
+                            <li><Link to='/dashboardMyJobs/personal'>Personal</Link></li>
+                            <li className=' my-1'><Link to='/dashboardMyJobs/education'>Education/Training</Link></li>
+                            <li><Link to='/dashboardMyJobs/employment'>Employment</Link></li>
+                            <li className=' my-1'><Link to='/dashboardMyJobs/other-information'>Other Information</Link></li>
+                            <li><Link to='/dashboardMyJobs/photograph'>Photograph</Link></li>
+                            <li className=' my-1'><Link to='/dashboardMyJobs/applied'>Applied Job List</Link></li>
                         </ul>
                     </div>
                 </div>

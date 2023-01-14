@@ -21,10 +21,15 @@ const Signin = () => {
     }
 
     return (
-        <div className=' h-[500px] flex justify-center items-center my-16'>
+        <div className=' h-[500px] flex justify-center items-center my-32'>
             <div className=' w-96 p-4 '>
                 <h2 className=' text-2xl font-bold  text-center'>Singin</h2>
                 <form onSubmit={handleSubmit(handleLogin)}>
+                    <div className=' flex   mt-8 mb-4 justify-center gap-2'>
+                        <button className='btn btn-primary'>Employers</button>
+                        <button className='btn btn-primary'>JobSeeker</button>
+                    </div>
+
                     <div> {loginError && <p className=' text-red-600'>{loginError}</p>}</div>
                     <label className="label"><span className="label-text font-bold">Email</span></label>
                     <input type="email"  {...register("email",
