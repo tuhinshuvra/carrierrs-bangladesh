@@ -38,7 +38,7 @@ const JobPrimaryPost = () => {
                             <label className="label">
                                 <span className="label-text text-md font-bold ">Employment Status</span>
                             </label>
-                            <select className="select select-bordered w-[303px]">
+                            <select className="select select-bordered w-[229px]">
                                 <option value={0}>Full Time</option>
                                 <option value={1}>Part Time</option>
                                 <option value={2}>Contactual Time</option>
@@ -60,7 +60,7 @@ const JobPrimaryPost = () => {
                             <label className="label">
                                 <span className="label-text text-md font-bold ">Resume Receiving Option</span>
                             </label>
-                            <select className="select select-bordered w-[303px]">
+                            <select className="select select-bordered w-[229px]">
                                 <option value={0}>Apply Online</option>
                                 <option value={1}>Email</option>
                                 <option value={2}>Heard Copy</option>

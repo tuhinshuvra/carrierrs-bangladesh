@@ -5,7 +5,7 @@ const AnimatedBanner = () => {
     return (
 
         <div className='mt-10'>
-            <div className="carousel w-full">
+            <div className="carousel w-full bg-slate-200">
                 <div id="slide1" className="carousel-item relative w-full h-36 flex justify-center align-middle mx-auto">
                     {/* <img src="https://placeimg.com/800/200/arch" className="w-full" alt="" /> */}
                     <div className="hidden md:block absolute my-10">

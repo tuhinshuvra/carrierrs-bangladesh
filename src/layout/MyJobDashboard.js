@@ -6,7 +6,7 @@ import Navbar from '../Pages/Shared/Navbar';
 const MyJobDashboard = () => {
     return (
         <div>
-            <div className='w-[1345px] mx-auto'>
+            <div className='w-[1200px] mx-auto'>
                 <Navbar></Navbar>
                 <div className="drawer drawer-mobile  columns-2 ">
                     <input id="dashboard-drawer" type="checkbox" className="drawer-toggle" />

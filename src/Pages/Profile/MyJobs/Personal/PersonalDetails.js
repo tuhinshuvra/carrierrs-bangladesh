@@ -58,7 +58,7 @@ const PersonalDetails = () => {
                         <label className="label">
                             <span className="label-text text-md font-bold ">Gender</span>
                         </label>
-                        <select className="select select-bordered w-[303px] ">
+                        <select className="select select-bordered w-[229px] ">
                             <option disabled selected>Select</option>
                             <option value={0}>Male</option>
                             <option value={1}>Female</option>
@@ -73,7 +73,7 @@ const PersonalDetails = () => {
                         <label className="label">
                             <span className="label-text text-md font-bold ">Religion</span>
                         </label>
-                        <select className="select select-bordered w-[303px] ">
+                        <select className="select select-bordered w-[229px] ">
                             <option disabled selected>Select</option>
                             <option value={0}>Buddhism</option>
                             <option value={1}>Hinduism</option>
@@ -89,7 +89,7 @@ const PersonalDetails = () => {
                         <label className="label">
                             <span className="label-text text-md font-bold ">Marital Status</span>
                         </label>
-                        <select className="select select-bordered w-[303px] ">
+                        <select className="select select-bordered w-[229px] ">
                             <option disabled selected>Select</option>
                             <option value={0}>Married</option>
                             <option value={1}>Unmarried</option>
@@ -186,7 +186,7 @@ const PersonalDetails = () => {
                         <label className="label">
                             <span className="label-text text-md font-bold ">Blood Group</span>
                         </label>
-                        <select className="select select-bordered w-[303px] ">
+                        <select className="select select-bordered w-[229px] ">
                             <option disabled selected>Select</option>
                             <option value={0}>A(+ve)</option>
                             <option value={1}>A(-ve)</option>

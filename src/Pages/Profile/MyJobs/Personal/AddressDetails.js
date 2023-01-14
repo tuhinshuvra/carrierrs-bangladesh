@@ -19,9 +19,9 @@ const AddressDetails = () => {
                         </div>
                     </div>
 
-                    <div class="grid md:grid-cols-3 md:gap-6 mt-2">
+                    <div class="grid md:grid-cols-2 md:gap-6 mt-2">
                         <div>
-                            <select className="select select-bordered w-48 ">
+                            <select className="select select-bordered w-56 ">
                                 <option disabled selected>Select District</option>
                                 <option value={0}>Male</option>
                                 <option value={1}>Female</option>
@@ -29,7 +29,7 @@ const AddressDetails = () => {
                             </select>
                         </div>
                         <div>
-                            <select className="select select-bordered w-48 ">
+                            <select className="select select-bordered w-56 ">
                                 <option disabled selected>Select Thana</option>
                                 <option value={0}>Male</option>
                                 <option value={1}>Female</option>
@@ -37,7 +37,7 @@ const AddressDetails = () => {
                             </select>
                         </div>
                         <div>
-                            <select className="select select-bordered w-48 ">
+                            <select className="select select-bordered w-56 ">
                                 <option disabled selected>Select P.O.</option>
                                 <option value={0}>Male</option>
                                 <option value={1}>Female</option>
@@ -57,9 +57,9 @@ const AddressDetails = () => {
                         </div>
                     </div>
 
-                    <div class="grid md:grid-cols-3 md:gap-6 mt-2">
+                    <div class="grid md:grid-cols-2 md:gap-6 mt-2">
                         <div>
-                            <select className="select select-bordered w-48 ">
+                            <select className="select select-bordered w-56 ">
                                 <option disabled selected>Select District</option>
                                 <option value={0}>Male</option>
                                 <option value={1}>Female</option>
@@ -67,7 +67,7 @@ const AddressDetails = () => {
                             </select>
                         </div>
                         <div>
-                            <select className="select select-bordered w-48 ">
+                            <select className="select select-bordered w-56 ">
                                 <option disabled selected>Select Thana</option>
                                 <option value={0}>Male</option>
                                 <option value={1}>Female</option>
@@ -75,7 +75,7 @@ const AddressDetails = () => {
                             </select>
                         </div>
                         <div>
-                            <select className="select select-bordered w-48 ">
+                            <select className="select select-bordered w-56 ">
                                 <option disabled selected>Select P.O.</option>
                                 <option value={0}>Male</option>
                                 <option value={1}>Female</option>

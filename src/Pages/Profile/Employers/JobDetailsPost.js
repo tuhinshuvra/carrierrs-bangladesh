@@ -15,7 +15,7 @@ const JobDetailsPost = () => {
                             <label className="label">
                                 <span className="label-text text-md font-bold ">Job Level</span>
                             </label>
-                            <select className="select select-bordered w-[303px]">
+                            <select className="select select-bordered w-[229px]">
                                 <option value={0}>Entry</option>
                                 <option value={1}>Mid</option>
                                 <option value={2}>Top</option>
@@ -25,7 +25,7 @@ const JobDetailsPost = () => {
                             <label className="label">
                                 <span className="label-text text-md font-bold ">Work Place</span>
                             </label>
-                            <select className="select select-bordered w-[303px]">
+                            <select className="select select-bordered w-[229px]">
                                 <option value={0}>Work at Office</option>
                                 <option value={1}>Work from Home</option>
                                 <option value={2}>Hybrid</option>
@@ -79,7 +79,7 @@ const JobDetailsPost = () => {
                             <label className="label">
                                 <span className="label-text text-md font-bold ">Bouns</span>
                             </label>
-                            <select className="select select-bordered w-[303px]">
+                            <select className="select select-bordered w-[229px]">
                                 <option value={0}>2</option>
                                 <option value={1}>3</option>
                                 <option value={2}>4</option>
